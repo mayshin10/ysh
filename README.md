@@ -27,16 +27,8 @@ Supporting functions
         $ gcc -Wall -Werror -o ysh ysh.c
         $ ./ysh
 * Invalid commands
-<pre><code>
-        $ gcc -Wall -Werror -o ysh ysh.c
-        $ ./ysh
-       </code></pre>  $ gcc -Wall -Werror -o ysh ysh.c
-        $ ./ysh
-	$ ext
-	Command not found: ext
-	hi	
-	$ ext
-	Command not found ext
+<pre><code>$ gcc -Wall -Werror -o ysh ysh.c
+$ ./ysh</code></pre>  
 <br><br>
 
 * Exit command<br>
