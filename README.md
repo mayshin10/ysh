@@ -24,12 +24,10 @@ Supporting functions
 ```$ ps | grep ysh```<br>
 ```$ nslookup www.yonsei.ac.kr | awk /yonsei/, 0```<br>
 ```$ ls /usr/bin | grep zip | wc -l```<br><br>
-        $ gcc -Wall -Werror -o ysh ysh.c
-        $ ./ysh
 * Invalid commands
 <pre><code>$ gcc -Wall -Werror -o ysh ysh.c
 $ ./ysh</code></pre>  
-<br><br>
+<br>
 
 * Exit command<br>
 ```$ exit```<br>
