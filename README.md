@@ -1,6 +1,6 @@
 # ysh, Yonsei-Shell
 This is simple shell program for unix/unix-like system.
-<br><br>
+<br>
 
 
 Run
@@ -8,7 +8,7 @@ Run
         $ gcc -Wall -Werror -o ysh ysh.c
         $ ./ysh
 
-<br><br>
+<br>
 
 Supporting functions
 --------------------------------------
