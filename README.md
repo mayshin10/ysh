@@ -26,6 +26,8 @@ Supporting functions
 ```$ ls /usr/bin | grep zip | wc -l```<br><br>
 
 * Invalid commands
+	$ ext
+	Command not found: ext
 	hi	
 	$ ext
 	Command not found ext
