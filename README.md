@@ -25,9 +25,8 @@ Supporting functions
 ```$ nslookup www.yonsei.ac.kr | awk /yonsei/, 0```<br>
 ```$ ls /usr/bin | grep zip | wc -l```<br><br>
 * Invalid commands
-<pre><code>$ gcc -Wall -Werror -o ysh ysh.c
-$ ./ysh</code></pre>  
-<br>
+```$ ext```<br>
+```Command not found: ext```<br><br>
 
 * Exit command<br>
 ```$ exit```<br>
