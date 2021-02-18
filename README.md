@@ -12,25 +12,25 @@ Run
 
 Supporting functions
 --------------------------------------
-* A single command
-```$ date```
-```$ ls```
+* A single command<br>
+```$ date```<br>
+```$ ls```<br><br>
 
-* Serialized commands
-```$ cd /; ls -l```
-```$ echo EEE3535; echo Operating; echo Systems```
+* Serialized commands<br>
+```$ cd /; ls -l```<br>
+```$ echo EEE3535; echo Operating; echo Systems```<br><br>
 
-* A series of piped commands
-```$ ps | grep ysh```
-```$ nslookup www.yonsei.ac.kr | awk /yonsei/, 0```
-```$ ls /usr/bin | grep zip | wc -l```
+* A series of piped commands<br>
+```$ ps | grep ysh```<br>
+```$ nslookup www.yonsei.ac.kr | awk /yonsei/, 0```<br>
+```$ ls /usr/bin | grep zip | wc -l```<br><br>
 
-* Invalid commands
-```$ ext 
-Command not found ext``` 
+* Invalid commands<br>
+```$ ext <br>
+Command not found ext``` <br>
 
-* Exit command
-```$ exit```
+* Exit command<br>
+```$ exit```<br>
 	
 
 
