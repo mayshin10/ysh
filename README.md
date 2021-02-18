@@ -1,29 +1,37 @@
 # ysh, Yonsei-Shell
-This is simple shell program for unix/unix-like system. 
+This is simple shell program for unix/unix-like system.
+<br><br><br><br> 
 
+
+Run
+--------------------------------------
+        $ gcc -Wall -Werror -o ysh ysh.c
+        $ ./ysh
+
+<br><br><br><br>
 
 Supporting functions
 --------------------------------------
 * A single command
 example)
-<pre><code>{$ date}</code></pre>
-<pre><code>{$ ls}</code></pre>
+```$ date```
+```$ ls```
 
 * Serialized commands
-<pre><code>{$ cd /; ls -l}</code></pre>
-<pre><code>{$ echo EEE3535; echo Operating; echo Systems}</code></pre>
+```$ cd /; ls -l```
+```$ echo EEE3535; echo Operating; echo Systems```
 
 * A series of piped commands
-<pre><code>{$ ps | grep ysh}</code></pre>
-<pre><code>{$ nslookup www.yonsei.ac.kr | awk /yonsei/, 0}</code></pre>
-<pre><code>{$ ls /usr/bin | grep zip | wc -l}</code></pre>
+```$ ps | grep ysh```
+```$ nslookup www.yonsei.ac.kr | awk /yonsei/, 0```
+```$ ls /usr/bin | grep zip | wc -l```
 
 * Invalid commands
-<pre><code>{$ ext}</code></pre>
-<pre><code>{Command not found ext}</code></pre>
+```$ ext 
+Command not found ext``` 
 
 * Exit command
-<pre><code>{$ exit}</code></pre>
+```$ exit```
 	
 
 Run
