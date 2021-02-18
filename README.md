@@ -29,7 +29,7 @@ Supporting functions
 * Invalid commands
         $ gcc -Wall -Werror -o ysh ysh.c
         $ ./ysh
-*         $ gcc -Wall -Werror -o ysh ysh.c
+         $ gcc -Wall -Werror -o ysh ysh.c
         $ ./ysh
 	$ ext
 	Command not found: ext
