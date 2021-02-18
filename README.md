@@ -8,12 +8,11 @@ Run
         $ gcc -Wall -Werror -o ysh ysh.c
         $ ./ysh
 
-<br><br><br><br>
+<br><br>
 
 Supporting functions
 --------------------------------------
 * A single command
-example)
 ```$ date```
 ```$ ls```
 
@@ -33,11 +32,6 @@ Command not found ext```
 * Exit command
 ```$ exit```
 	
-
-Run
---------------------------------------
-	$ gcc -Wall -Werror -o ysh ysh.c
-	$ ./ysh
 
 
 
