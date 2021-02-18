@@ -24,7 +24,7 @@ Supporting functions
 ```$ ps | grep ysh```<br>
 ```$ nslookup www.yonsei.ac.kr | awk /yonsei/, 0```<br>
 ```$ ls /usr/bin | grep zip | wc -l```<br><br>
-* Invalid commands
+* Invalid commands<br>
 ```$ ext```<br>
 ```Command not found: ext```<br><br>
 
